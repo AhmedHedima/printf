@@ -23,13 +23,13 @@
  * @unsign: uhfuh
  *
  * @plus_flag: iwdh
- * @space_flag:okm
- * @hashtag_flag:jdjwk
- * @zero_flag:ijnc
- * @minus_flag:idj
+ * @space_flag: okm
+ * @hashtag_flag: jdjw
+ * @zero_flag: ijnc
+ * @minus_flag: idj
  *
- * @width_flag:hfn
- * @precision:jefc
+ * @width: hfhddfn
+ * @precision: jefc
  *
  * @h_modifier: dfds
  * @l_modifier: hujch
@@ -37,7 +37,7 @@
 */
 
 typedef struct parameters
-(
+{
 	unsigned int unsign		: 1;
 
 	unsigned int plus_flag		: 1;
@@ -55,7 +55,7 @@ typedef struct parameters
 } params_t;
 
 /**
- * struct specifier-Struct token
+ * struct specifier - Struct token
  *
  * @specifier: format token
  * @f: The function associated
